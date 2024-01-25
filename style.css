@@ -1,0 +1,106 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+}
+.first{
+    z-index: -1;
+    width: 30%;
+    height: 100vh;;
+    background: rgb(51, 179, 253);
+}
+.second{
+    z-index: -1;
+    width: 40%;
+    height: 100vh;
+    background: rgb(196, 239, 245);
+   
+}
+.third{
+    z-index: -1;
+    width: 30%;
+    height: 100vh;;
+     background: rgb(0, 4, 255);
+}
+nav{
+    width: 100%;
+    /* 70 to 120 */
+    height: 70px;
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.logo{
+    color: black;
+    /* 130 to 50 */
+    font-size: 50px;
+    letter-spacing: 5px;
+    font-weight: bold;
+    top: 10px;
+}
+.logo:first-letter{
+    color: rgb(249, 253, 250);
+}
+.menu a{
+    text-decoration: none;
+     color: black;
+     /* 10 to 30 */
+     padding: 10px;
+     margin: 5px;
+     /* 60-20 */
+     font-size: 20px;
+     font-weight: bold;
+}
+.menu a:hover{
+    background-color: gray;
+    border: 2px;
+}
+.icon{
+    width: 100px;
+}
+.plate{
+    position: absolute;
+    right: 100px;
+    /* 200-100 */
+    top: 100px;
+    width: 500px;
+    /* height: 200px; */
+    aspect-ratio: 1/1;
+    
+}
+.plate img{
+    width: 100%;
+    height: 100%; 
+    object-fit: cover;
+}
+.text-area{
+    position: absolute;
+    top:25%;
+    left: 10%;
+    color: rgb(12, 12, 12);
+    font-size: 45px;  
+}
+h1:first-letter{
+    color: whitesmoke;
+}
+button{
+    padding: 10px 20px;
+    color: rgb(8, 8, 8);
+    background-color: rgb(250, 250, 250);
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+button:hover{
+    background-color: gray;
+}
